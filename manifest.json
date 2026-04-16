@@ -1,0 +1,16 @@
+{
+  "name": "callisto-test-plugin",
+  "version": "1.0.0",
+  "description": "A test plugin for Callisto",
+  "main": "src/index.js",
+  "callisto": {
+    "permissions": ["routes", "skills"],
+    "routes": ["src/routes/**/*.js"],
+    "skills": [],
+    "pages": [],
+    "hooks": {
+      "onInstall": "src/hooks/onInstall.js",
+      "onLoad": null
+    }
+  }
+}
